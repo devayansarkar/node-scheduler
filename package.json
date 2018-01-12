@@ -1,0 +1,24 @@
+{
+  "name": "scheduler",
+  "version": "1.0.0",
+  "description": "To create a simple scheduler application in Node.js ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devayansarkar/node-scheduler.git"
+  },
+  "author": "Devayan Sarkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devayansarkar/node-scheduler/issues"
+  },
+  "homepage": "https://github.com/devayansarkar/node-scheduler#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "node-schedule": "^1.3.0"
+  }
+}
